@@ -1,0 +1,55 @@
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+.navbar-brand h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #778899;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 5px;
+}
+
+.main-content {
+  margin: 35px;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.main-content p {
+  text-align: justify;
+  color: black;
+}
